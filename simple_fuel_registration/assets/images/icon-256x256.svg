@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Achtergrond -->
+  <rect width="256" height="256" rx="32" fill="#1a1a2e"/>
+
+  <!-- Brandstofpomp silhouet -->
+  <rect x="64" y="80" width="72" height="96" rx="8" fill="#e94560"/>
+  <rect x="72" y="96" width="56" height="36" rx="4" fill="#0f3460"/>
+  <rect x="136" y="96" width="16" height="56" rx="4" fill="#e94560"/>
+  <rect x="148" y="108" width="28" height="32" rx="6" fill="#e94560"/>
+  <circle cx="162" cy="124" r="10" fill="#0f3460"/>
+  <circle cx="162" cy="124" r="5" fill="#e94560"/>
+
+  <!-- Brandstofdruppel -->
+  <path d="M100 108 Q100 88 112 80 Q124 88 124 108 Q124 120 112 120 Q100 120 100 108Z" fill="#53d8fb"/>
+
+  <!-- Tekst SFR -->
+  <text x="128" y="200" font-family="Arial, sans-serif" font-size="28" font-weight="bold"
+        text-anchor="middle" fill="#ffffff" letter-spacing="2">SFR</text>
+</svg>

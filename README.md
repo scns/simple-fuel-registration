@@ -3,7 +3,7 @@
 Developed by [WP Plugin Factory](https://www.wppluginfactory.nl/)
 [Plugin website](https://www.wppluginfactory.nl/simple-fuel-registration)
 
-![Version](https://img.shields.io/badge/Version-1.6.3-blue)  ![WordPress](https://img.shields.io/badge/WordPress-6.0+-21759b)  ![PHP](https://img.shields.io/badge/PHP-8.0+-777bb4)  [![License](https://img.shields.io/badge/License-GPL--2.0--or--later-green)](https://www.gnu.org/licenses/gpl-2.0.html)
+![Version](https://img.shields.io/badge/Version-1.6.4-blue)  ![WordPress](https://img.shields.io/badge/WordPress-6.0+-21759b)  ![PHP](https://img.shields.io/badge/PHP-8.0+-777bb4)  [![License](https://img.shields.io/badge/License-GPL--2.0--or--later-green)](https://www.gnu.org/licenses/gpl-2.0.html)
 
 ---
 
@@ -123,6 +123,10 @@ unlimited use.
 5. Debug panel with raw AI response and extracted field values
 
 ## Changelog
+
+### 1.6.4
+
+- Fixed: Publieke quick-capture pagina niet toegankelijk vanuit iOS-snelkoppeling — `esc_url()` escapet `&` naar `&amp;` in het web app manifest waardoor de token niet werd herkend; vervangen door `esc_url_raw()`
 
 ### 1.6.3
 
